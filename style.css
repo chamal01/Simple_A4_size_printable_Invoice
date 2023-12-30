@@ -1,0 +1,251 @@
+body {
+    background-color: #f7f7ff;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.invoice {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    margin: 20px;
+}
+
+.invoice header {
+    border-bottom: 1px solid #0d6efd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.invoice main {
+    padding-bottom: 30px;
+}
+
+
+.invoice table th {
+    font-weight: 600;
+    font-size: 16px;
+    width: 10%;
+}
+
+.invoice table td h3 {
+    color: #0066ff;
+    font-size: 1em;
+}
+
+.invoice table .text-left {
+    width: 30%;
+}
+
+.invoice table .text-right {
+    text-align: right;
+    width: 10%;
+}
+
+.invoice table th,
+.invoice table td {
+    padding: 5px;
+    background-color: #eee;
+    border-bottom: 1px solid #fff;
+}
+
+.invoice table th {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.invoice table td h3 {
+    color: #8ab3f1;
+    font-size: 1em;
+}
+
+.invoice table .qty,
+.invoice table .Rate,
+.invoice table .total,
+.invoice table .unit {
+    text-align: right;
+    font-size: 1em;
+}
+
+.invoice table .ID {
+    color: #ffffff;
+    background: #a1c5fc;
+    font-size: 1em;
+}
+
+.invoice table .unit {
+    background: #ffffff;
+}
+
+.invoice table .total {
+    color: #ffffff;
+}
+
+.invoice table tfoot td {
+    background: 0 0;
+    border-top: 1px solid #aaa;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.invoice footer {
+    border-top: 1px solid #aaa;
+    padding: 80px 0;
+    text-align: center;
+    color: #414141;
+}
+
+.signature-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signature {
+    width: 30%;
+    text-align: center;
+}
+
+.signature-line {
+    border-top: 1px solid #373737;
+    margin: 10px 0;
+}
+
+.signature-text {
+    margin-top: 5px;
+}
+
+
+/*---------------------------start media quary for response A4 size---------------------------------------------*/
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+body {
+    background-color: #f7f7ff;
+    margin: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.invoice {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.invoice header {
+    border-bottom: 1px solid #0d6efd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.invoice main {
+    padding-bottom: 30px;
+}
+
+.invoice table th {
+    font-weight: 600;
+    font-size: 16px;
+    width: 10%;
+}
+
+.invoice table td h3 {
+    color: #0066ff;
+    font-size: 1em;
+}
+
+.invoice table .text-left {
+    width: 30%;
+}
+
+.invoice table .text-right {
+    text-align: right;
+    width: 10%;
+}
+
+.invoice table th,
+.invoice table td {
+    padding: 5px;
+    background-color: #eee;
+    border-bottom: 1px solid #fff;
+}
+
+.invoice table th {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.invoice table td h3 {
+    color: #ff0000;
+    font-size: 1em;
+}
+
+.invoice table .qty,
+.invoice table .Rate,
+.invoice table .total,
+.invoice table .unit {
+    text-align: right;
+    font-size: 1em;
+}
+
+.invoice table .ID {
+    color: #fff;
+    background: #a1c5fc;
+    font-size: 1em;
+}
+
+.invoice table .unit {
+    background: #ddd;
+}
+
+.invoice table .total {
+    color: #fff;
+}
+
+.invoice table tfoot td {
+    background: 0 0;
+    border-top: 1px solid #ff0000;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+
+.invoice footer {
+    border-top: 1px solid #aaa;
+    padding: 80px 0;
+    text-align: center;
+    color: #414141;
+}
+
+.signature-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signature {
+    width: 30%;
+    text-align: center;
+}
+
+.signature-line {
+    border-top: 1px solid #373737;
+    margin: 10px 0;
+}
+
+.signature-text {
+    margin-top: 5px;
+}

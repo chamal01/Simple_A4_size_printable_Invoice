@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Invoice - Your Company Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <div class="invoice">
+                    <header class="text-center">
+                        <img src="./logo.png" alt="Company Logo" style="max-width: 100px; max-height: 100px;">
+                        <h2>Auto World</h2>
+                        <p>No.8/7/1A Wewalduwa Road, Hunupitiya, Wattala, Sri Lanka <br> (077)7182575 / (076)0667406 |
+                            <a href="mailto:autoworldrepairs2020@gmail.com">autoworldrepairs2020@gmail.com</a></p>
+                    </header>
+                    <main>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <div class="invoice-to">
+                                    <div class="text-gray-light">INVOICE TO:</div>
+                                    <h4 class="to">Mr./Mrs./ven. Chamal Adhikaram</h4><!--customer name-->
+                                    <p class="address">No-21/2 Kandy Road, Pilimathalawa | <a
+                                            href="mailto:abc@gmail.com">abc@gmail.com</a></p> <!--customer Details section-->
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-md-right">
+                                <div class="invoice-details">
+                                    <h4 class="invoice-id">INVOICE 3-2-1</h4> <!--------genarate an invoice number -->
+                                    <p class="date">Date of Invoice: 31/12/2023</p> <!-- Invoice date-->
+                                    <p>Vehicle Number : BEB - 2713</p>
+                                    <p>Payment type : Cash</p>
+                                </div>
+                            </div>
+                        </div>
+                        <table class="table table-bordered">
+<!------------------------------------------Table Head Section----------------------------------------------------->
+                            <thead>
+                                <tr>
+                                    <th>Item ID</th>
+                                    <th class="text-left">Description</th>
+                                    <th class="text-right">Quantity</th>
+                                    <th class="text-right">Rate(Rs.)</th>
+                                    <th class="text-right">Amount(Rs.)</th>
+                                </tr>
+                            </thead>
+<!----------------------------------------------Table Body Section------------------------------------------------>
+                            <tbody>
+                                <tr>
+                                    <td class='ID'>1</td>
+                                    <td class='text-left'>Service 1</td>
+                                    <td class='qty'>2</td>
+                                    <td class='Rate'>Rs: 250.00</td>
+                                    <td class='Rate'>Rs: 500.00</td>
+                                </tr>
+                                <tr>
+                                    <td class='ID'>2</td>
+                                    <td class='text-left'>Service 2</td>
+                                    <td class='qty'>4</td>
+                                    <td class='Rate'>15</td>
+                                    <td class='Rate'>Rs : 600.00</td>
+                                </tr>
+                            </tbody>
+
+<!-----------------------------------------------Table Footer Section------------------------------------------->
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td colspan="2">SUBTOTAL</td>
+                                    <td>RS : 1,100.00</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td colspan="2">TAX 18%</td>
+                                    <td>Rs : 275.00</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td colspan="2">Discount 10%</td>
+                                    <td>Rs : 250.00</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"></td>
+                                    <td colspan="2">
+                                        <h3>GRAND TOTAL</h3>
+                                    </td>
+                                    <td class='Rate'>
+                                        <h3>Rs : 1,125.00</h3>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </main>
+<!------------------------------------Invoice Footer Section--------------------------------------------------->
+                    <footer>
+                        <div class="signature-block">
+                            <div class="signature">
+                                <div class="signature-line"></div>
+                                <div class="signature-text">Prepaird by</div>
+                            </div>
+                            <div class="signature">
+                                <div class="signature-line"></div>
+                                <div class="signature-text">Authorized by</div>
+                            </div>
+                            <div class="signature">
+                                <div class="signature-line"></div>
+                                <div class="signature-text">Received by</div>
+                            </div>
+                        </div>
+                    </footer>
+                    <div class="thanks text-center">Thank you & Come Again</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
